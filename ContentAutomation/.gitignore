@@ -1,0 +1,94 @@
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+########################
+#  Kotlin / Gradle     #
+########################
+/build
+out/
+# Kotlin Native caches (iOS, Desktop)
+.kotlinc/
+
+########################
+#  JetBrains IDEs      #
+########################
+.idea/
+*.iws
+*.ipr
+
+########################
+#  Android             #
+########################
+*.jks
+*.keystore
+captures/
+.externalNativeBuild/
+
+########################
+#  iOS / Xcode         #
+########################
+# Workspaces & data
+*.xcworkspace
+DerivedData/
+build/
+# “playgrounds”, Swift Package stuff
+*.xcuserstate
+*.swiftpm/
+# Properly keep the pbxproj and shared scheme files
+!*/shared.xcscheme
+
+########################
+#  Desktop (JVM)       #
+########################
+# Nothing special besides Gradle, but if you
+# embed native libs you may have extra output dirs.
+
+########################
+#  Web (Kotlin/JS)     #
+########################
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/distributions/
+*.js.map
+
+########################
+#  OS-specific cruft   #
+########################
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+########################
+#  Misc.               #
+########################
+# Logs
+*.log
+
+# IntelliJ run configs, etc.
+run/
